@@ -25,10 +25,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WGf-GK-wgL" userLabel="ViewOne">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MK 978 Sanitary Control Valve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zsx-Q9-1mF">
-                                                        <rect key="frame" x="71.5" y="15" width="232.5" height="20.5"/>
+                                                        <rect key="frame" x="71.5" y="5" width="232.5" height="20.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -41,10 +41,10 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljo-xq-SwP" userLabel="ViewTwo">
-                                                <rect key="frame" x="0.0" y="50" width="375" height="300"/>
+                                                <rect key="frame" x="0.0" y="30" width="375" height="320"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mk978" translatesAutoresizingMaskIntoConstraints="NO" id="yvp-TR-Se6">
-                                                        <rect key="frame" x="8" y="8" width="359" height="284"/>
+                                                        <rect key="frame" x="8" y="8" width="359" height="304"/>
                                                     </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -127,7 +127,7 @@
                                             <constraint firstItem="7hg-0W-pqk" firstAttribute="top" secondItem="fRO-Dv-FOf" secondAttribute="top" constant="350" id="GkY-ct-XoK"/>
                                             <constraint firstItem="4QF-Me-Jha" firstAttribute="centerX" secondItem="fRO-Dv-FOf" secondAttribute="centerX" id="H9Z-cS-0Vx"/>
                                             <constraint firstItem="ljo-xq-SwP" firstAttribute="centerX" secondItem="fRO-Dv-FOf" secondAttribute="centerX" id="O9C-sW-uld"/>
-                                            <constraint firstItem="ljo-xq-SwP" firstAttribute="top" secondItem="fRO-Dv-FOf" secondAttribute="top" constant="50" id="WR3-aq-KGY"/>
+                                            <constraint firstItem="ljo-xq-SwP" firstAttribute="top" secondItem="fRO-Dv-FOf" secondAttribute="top" constant="30" id="WR3-aq-KGY"/>
                                             <constraint firstItem="sW0-AX-J03" firstAttribute="top" secondItem="fRO-Dv-FOf" secondAttribute="top" constant="750" id="ZK3-c4-rCu"/>
                                             <constraint firstAttribute="height" constant="950" id="dgb-d8-8d1"/>
                                             <constraint firstItem="4QF-Me-Jha" firstAttribute="top" secondItem="7hg-0W-pqk" secondAttribute="bottom" id="im6-yn-0gO"/>
@@ -170,6 +170,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="W2J-Hi-eZB" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9pM-Pf-YEc">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
