@@ -28,8 +28,8 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MK 978 Sanitary Control Valve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zsx-Q9-1mF">
-                                                        <rect key="frame" x="71.5" y="5" width="232.5" height="20.5"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <rect key="frame" x="36" y="1.5" width="303" height="27.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -54,7 +54,6 @@
                                                     <constraint firstAttribute="trailingMargin" secondItem="yvp-TR-Se6" secondAttribute="trailing" id="Lzc-hv-qRy"/>
                                                     <constraint firstItem="yvp-TR-Se6" firstAttribute="leading" secondItem="ljo-xq-SwP" secondAttribute="leadingMargin" id="Mt7-cs-UL3"/>
                                                     <constraint firstItem="yvp-TR-Se6" firstAttribute="top" secondItem="ljo-xq-SwP" secondAttribute="topMargin" id="mg1-Fh-hrk"/>
-                                                    <constraint firstAttribute="height" constant="320" id="r2T-qw-r0y"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7hg-0W-pqk" userLabel="ViewThree">
@@ -69,6 +68,9 @@
                                                                 <state key="normal" title="Sizing">
                                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <segue destination="deP-oc-YFn" kind="show" id="BMY-TI-c5m"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmp-io-IJD">
                                                                 <rect key="frame" x="179.5" y="0.0" width="179.5" height="34"/>
@@ -86,7 +88,7 @@
                                                 <color key="backgroundColor" name="linkColor" catalog="System" colorSpace="catalog"/>
                                                 <constraints>
                                                     <constraint firstItem="pr7-H9-JjN" firstAttribute="leading" secondItem="7hg-0W-pqk" secondAttribute="leadingMargin" id="2LI-Og-pFJ"/>
-                                                    <constraint firstAttribute="height" constant="50" id="8sW-4j-YI4"/>
+                                                    <constraint firstAttribute="height" constant="50" id="8sW-4j-YI4" userLabel="height = 30"/>
                                                     <constraint firstAttribute="bottomMargin" secondItem="pr7-H9-JjN" secondAttribute="bottom" id="KmH-gX-wPR"/>
                                                     <constraint firstItem="pr7-H9-JjN" firstAttribute="top" secondItem="7hg-0W-pqk" secondAttribute="topMargin" id="cvd-bK-Yhd"/>
                                                     <constraint firstAttribute="trailingMargin" secondItem="pr7-H9-JjN" secondAttribute="trailing" id="fqK-yq-CRi"/>
@@ -96,7 +98,7 @@
                                                 <rect key="frame" x="0.0" y="400" width="375" height="75"/>
                                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="75" id="sHp-z0-jla" userLabel="height = 110"/>
+                                                    <constraint firstAttribute="height" constant="75" id="sHp-z0-jla" userLabel="height = 210"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UTE-aL-iUM" userLabel="ViewFive">
@@ -137,7 +139,7 @@
                                                     <constraint firstAttribute="trailingMargin" secondItem="aUU-jr-9Je" secondAttribute="trailing" id="hgF-4q-yPc"/>
                                                     <constraint firstItem="aUU-jr-9Je" firstAttribute="leading" secondItem="UTE-aL-iUM" secondAttribute="leadingMargin" id="mDy-tq-mhC"/>
                                                     <constraint firstItem="aUU-jr-9Je" firstAttribute="top" secondItem="UTE-aL-iUM" secondAttribute="topMargin" id="pz4-Di-PQQ"/>
-                                                    <constraint firstAttribute="height" constant="50" id="wbp-di-lIe"/>
+                                                    <constraint firstAttribute="height" constant="50" id="wbp-di-lIe" userLabel="height = 30"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sW0-AX-J03" userLabel="ViewSix">
@@ -183,14 +185,26 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Pf4-l3-Huf">
-                        <barButtonItem key="leftBarButtonItem" title="Item" id="bsl-Cz-Zq0"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="bVU-h1-pSB"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Pf4-l3-Huf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2012" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7A7-ef-95E">
+            <objects>
+                <viewController id="deP-oc-YFn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dQA-cN-2hX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="SUV-ak-R4R"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agd-dY-cKN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2852" y="132"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="OT8-qA-bwc">
